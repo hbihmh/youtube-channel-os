@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="440" viewBox="0 0 600 440">
+   <rect width="100%" height="100%" fill="#0d1117"/>
+   <style>
+     .box { fill: #161b22; stroke: #30363d; stroke-width: 2px; rx: 6px; }
+     .text { fill: #c9d1d9; font-family: sans-serif; font-size: 15px; font-weight: bold; text-anchor: middle; dominant-baseline: middle; }
+     .arrow { stroke: #58a6ff; stroke-width: 2.5px; fill: none; marker-end: url(#arrow); }
+   </style>
+   <defs>
+     <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+       <path d="M 0 2 L 10 5 L 0 8 z" fill="#58a6ff"/>
+     </marker>
+   </defs>
+   <text x="300" y="30" fill="#ffffff" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle">From Code to Learned Model</text>
+   
+   <rect x="175" y="55" width="250" height="38" class="box" stroke="#58a6ff"/>
+   <text x="300" y="74" class="text" fill="#58a6ff">Python Code (`ml_01_demo.py`)</text>
+   <path d="M 300 93 L 300 120" class="arrow"/>
+   
+   <rect x="175" y="120" width="250" height="38" class="box"/>
+   <text x="300" y="139" class="text">Examples + Labels</text>
+   <path d="M 300 158 L 300 185" class="arrow"/>
+   
+   <rect x="175" y="185" width="250" height="38" class="box"/>
+   <text x="300" y="204" class="text">Learning Procedure</text>
+   <path d="M 300 223 L 300 250" class="arrow"/>
+   
+   <rect x="175" y="250" width="250" height="38" class="box"/>
+   <text x="300" y="269" class="text">Simple Model</text>
+   <path d="M 300 288 L 300 315" class="arrow"/>
+   
+   <rect x="175" y="315" width="250" height="38" class="box"/>
+   <text x="300" y="334" class="text">New Unseen Input</text>
+   <path d="M 300 353 L 300 380" class="arrow"/>
+   
+   <rect x="175" y="380" width="250" height="38" class="box" fill="#1f6feb"/>
+   <text x="300" y="399" class="text" fill="#ffffff">Prediction Result</text>
+</svg>

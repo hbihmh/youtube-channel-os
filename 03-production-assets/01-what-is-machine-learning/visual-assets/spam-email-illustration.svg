@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+   <rect width="100%" height="100%" fill="#0d1117"/>
+   <style>
+     .card { fill: #161b22; stroke: #30363d; stroke-width: 2px; rx: 8px; }
+     .text-muted { fill: #8b949e; font-family: sans-serif; font-size: 14px; }
+     .text-main { fill: #c9d1d9; font-family: sans-serif; font-size: 16px; font-weight: bold; }
+     .badge { fill: #f85149; rx: 4px; }
+   </style>
+   <text x="300" y="35" fill="#ffffff" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle">Spam Email Classifier Object</text>
+   
+   <rect x="150" y="70" width="300" height="280" class="card"/>
+   <text x="175" y="110" class="text-muted">From: unknown@suspicious-domain.xyz</text>
+   <text x="175" y="145" class="text-muted">Subject: Claim Your Prize Now!</text>
+   
+   <line x1="175" y1="170" x2="425" y2="170" stroke="#30363d" stroke-width="1.5"/>
+   
+   <text x="175" y="210" class="text-main">YOU WON $1,000,000!</text>
+   <text x="175" y="240" class="text-main">Click here immediately to claim...</text>
+   
+   <rect x="340" y="280" width="80" height="35" class="badge"/>
+   <text x="380" y="302.5" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">SPAM</text>
+</svg>
