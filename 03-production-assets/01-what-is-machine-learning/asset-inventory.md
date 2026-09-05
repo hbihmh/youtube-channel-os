@@ -1,21 +1,38 @@
-﻿# ML-01 Asset Inventory
+# Asset Inventory - ML-01: What is Machine Learning?
 
-## Completed Assets & Specifications
-- [x] diagrams/diagram-specs.md (All 6 core architectural layouts defined)
-- [x] slides/slide-deck-outline.md (19-scene modular slide mapping)
-- [x] thumbnails/thumbnail-specs.md (Production thumbnail concepts finalized)
+This document tracks all production assets for the ML-01 lecture package.
 
-## Planned Assets
-### 1. Diagrams
-- [ ] core-ml-mental-model.png
-- [ ] traditional-vs-ml.png
-- [ ] training-vs-inference.png
-- [ ] supervised-learning-flow.png
-- [ ] generalization-concept.png
-- [ ] spam-classifier-example.png
+## Core Diagrams (`diagrams/`)
+- `core-ml-mental-model.svg` ✅
+- `traditional-vs-ml.svg` ✅
+- `training-vs-inference.svg` ✅
+- `supervised-learning-flow.svg` ✅
+- `generalization-concept.svg` ✅
+- `spam-classifier-example.svg` ✅
+- `diagram-specs.md` ✅
 
-### 2. Slides
-- [ ] slides-deck.pdf
+## Slide Deck (`slides/`)
+- `ml-01-what-is-machine-learning.pptx` ✅ (19-slide production deck)
+- `slide-deck-outline.md` ✅
 
-### 3. Thumbnails
-- [ ] thumbnail-concept-01.png
+## Supporting Visuals (`visual-assets/`)
+- **Batch A:**
+  - `computer-system-illustration.svg` ✅
+  - `rules-become-difficult.svg` ✅
+  - `learning-from-examples.svg` ✅
+  - `human-designed-system.svg` ✅
+- **Batch B:**
+  - `spam-email-illustration.svg` ✅
+  - `code-to-model.svg` ✅
+  - `generalization-reminder.svg` ✅
+  - `ml-is-not-magic.svg` ✅
+- **Batch C:**
+  - `historical-arthur-samuel.svg` ✅
+  - `ml-02-transition.svg` ✅
+
+## Animations (`animations/`)
+- `README.md` ✅
+
+## Thumbnails (`thumbnails/`)
+- `ml-01-thumbnail.svg` ✅ (1280x720, Concept 1: Rules vs. Learned Parameters)
+- `thumbnail-specs.md` ✅
